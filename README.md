@@ -1,24 +1,16 @@
-# README
+This app is composed of two tables : `courses` and `lessons` 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+CREATE TABLE `courses` (
+	`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+	`title` TEXT,
+	`description` TEXT
+);
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+CREATE TABLE `lessons` (
+	`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+	`title` TEXT,
+	`body` TEXT,
+	`course_id` INTEGER
+);
+```

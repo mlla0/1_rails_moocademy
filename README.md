@@ -28,3 +28,5 @@ They are composed by the the following columns :
 * title,
 * body,
 * course_id
+
+:kiss:

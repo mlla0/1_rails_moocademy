@@ -1,6 +1,6 @@
 # bdd & rails (thp week 4, day 3)
 
-## 2/5 - the hacking pinterest 
+## 2/5 - moocademy 
 
 ## made in pair programming by Maud Lévy :fried_shrimp: & Antoine Vercoutère :poultry_leg:
 

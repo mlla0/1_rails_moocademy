@@ -1,16 +1,15 @@
-This app is composed of two tables : `courses` and `lessons` 
+This app is composed of two tables : `courses` and `lessons`
 
-```
-CREATE TABLE `courses` (
-	`id` INTEGER PRIMARY KEY AUTOINCREMENT,
-	`title` TEXT,
-	`description` TEXT
-);
+They are composed by the the following columns :
 
-CREATE TABLE `lessons` (
-	`id` INTEGER PRIMARY KEY AUTOINCREMENT,
-	`title` TEXT,
-	`body` TEXT,
-	`course_id` INTEGER
-);
-```
+_courses_
+* id,
+* title,
+* description
+
+
+_lessons_ 
+* id,
+* title,
+* body,
+* course_id
